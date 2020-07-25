@@ -65,10 +65,10 @@ template.innerHTML = `
         <div class="marchio">
         </div>
             <div class="nav-menu" id="nav-menu-id">
-                <li class="nav-item"><a  href="/index.html" class="reflink-nav-item">Home</a></li>
-                <li class="nav-item"><a  href="/simulatore-custom.html" class="reflink-nav-item">Custom</a></li>
-                <li class="nav-item"><a  href="/about.html" class="reflink-nav-item">About</a></li>
-                <li class="nav-item"><a  href="/contacts.html" class="reflink-nav-item">Contatti</a></li>
+                <li class="nav-item"><a  href="./index.html" class="reflink-nav-item">Home</a></li>
+                <li class="nav-item"><a  href="./simulatore-custom.html" class="reflink-nav-item">Custom</a></li>
+                <li class="nav-item"><a  href="./about.html" class="reflink-nav-item">About</a></li>
+                <li class="nav-item"><a  href="./contacts.html" class="reflink-nav-item">Contatti</a></li>
                 
         </div>
     </div>
