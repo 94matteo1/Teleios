@@ -109,6 +109,18 @@ input[type=submit]:hover{
     font-family: 'Roboto', sans-serif;
 }
 
+.product-button{
+    margin-top: 10%;
+    width: 120px ;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    height: 50px;
+    border-radius: 35px;
+    color: whitesmoke;
+    background-color: #0071e3;
+    float: right;
+}
+
 
 @media (min-width : 0px) and (max-width: 767px){
     .info-contacts{
@@ -130,6 +142,8 @@ input[type=submit]:hover{
         margin-left: 5%;
         width: 75%;
     }
+
+
 }
 
 
@@ -200,7 +214,7 @@ input[type=submit]:hover{
     </div>
      <div class="row">
         <div class="col-50">           
-            <input type="submit" name="submit" value="Send" style="float:right">
+            <button type="button" class="btn btn-primary product-button">Submit</button>
         </div>
     </div>
 </form>

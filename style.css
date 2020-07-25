@@ -232,6 +232,17 @@ body {
     margin-left: 25%;
 }
 
+.product-button{
+    margin-top: 10%;
+    width: 120px ;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    height: 50px;
+    border-radius: 35px;
+    color: whitesmoke;
+    background-color: #0071e3;
+}
+
 
 
 /* Text main*/
@@ -393,6 +404,7 @@ body {
 
     .column-img-component{
         width: 100%;
+        margin-top: 10%;
 
     }
 
