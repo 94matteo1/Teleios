@@ -16,11 +16,30 @@ body {
 .background-container{
     padding-bottom: 10px;
     background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .color-background{
     background-color: #000;    
-    height: 32.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:200px ;
+    
+}
+
+.background-container-products{
+    padding-bottom: 10px;
+    background-color: #222;
+}
+
+.color-background-products{
+    background-color: #000;    
+    height: 16vh;
     
 }
 
@@ -82,10 +101,10 @@ body {
     z-index: 1;
     display: block;
     margin: 0;
-
+    background-color: #000;
 }
 
-/*simulatore - info*/
+/*simulatore - custom*/
 
 .item-big-container{
     height: 87vh; 
@@ -102,19 +121,6 @@ body {
     height: 87vh;
 }
 
-.item-container-info{
-    color: #888;
-    box-sizing: border-box;
-    font-size: 100%;
-    display: block;
-    position: relative;
-    min-height: 840px;
-    background-repeat: no-repeat;
-    background-color: #000;
-    width: 100%;
-    background-position: center top;
-    background-image: url('img/test/MainInfo.jpg');
-}
 
 .img-responsive{
     color: #888;
@@ -124,7 +130,6 @@ body {
     display: none;
 }
 
-/*simulatore - custom*/
 
 .row-components{
     display: flex;
@@ -174,7 +179,7 @@ body {
 }
 
 .background-viewer{
-
+    padding-top: 10px;
     padding-bottom: 10px;
     background-color: #222;
     max-height: 1920px;
@@ -206,6 +211,27 @@ body {
     max-height:100%!important;
 
 }
+
+/* products*/
+.row-components-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding-bottom: 7%;
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+.row-components-products-reverse{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 7%;
+    max-width: 50%;
+    margin-left: 25%;
+}
+
 
 
 /* Text main*/
@@ -249,10 +275,9 @@ body {
     height: 100%;
     display: flex;
     max-width: 60%;
-    margin-left:20%;
 }
 
-/*text simulatore - info*/
+/*text simulatore*/
 
 .text-simulatore{
     padding-top: 4.375rem;
@@ -279,84 +304,15 @@ body {
     margin-top: 1.300rem;
 }
 
-.text-container-info{
-    -webkit-tap-highlight-color: transparent;
-    color: #888;
-    box-sizing: border-box;
-    font: inherit;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-weight: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    font-family: inherit;
-    vertical-align: baseline;
-
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    position: absolute;
-    width: 100%;
-    max-width: 100%;
-    top: 2.5rem;
-
-    
-}
-
-.text-container-info:before{
-    content: "";
-    display: table;
-}
-
-.text-container-info:after{
-    clear: both;
-    content: "";
-    display: table;
-    height: 0;
-    visibility: hidden;
-}
-.text-content-info{
-    -webkit-tap-highlight-color: transparent;
-    color: #888;
-    box-sizing: border-box;
-    font: inherit;
-    padding: 0;
-    border: 0;
-    font-weight: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    font-family: inherit;
-    vertical-align: baseline;
-    max-width: 835px !important;
-    margin: 0 auto;
-    text-align: center;
-}
-.text-title-info{
-    -webkit-tap-highlight-color: transparent;
-text-align: center;
-box-sizing: border-box;
-font: inherit;
-margin: 0;
-padding: 0;
-border: 0;
-font-weight: inherit;
-font-style: inherit;
-font-family: inherit;
-vertical-align: baseline;
-font-size: 1.125em;
-line-height: 1.5em;
-color: #888;
-}
 
 /* text simulatore - custom */
 
 .text-container-custom{
-    padding-top: 4.375rem;
+    padding-top: 3%;
     max-width: 40%;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 3%;
 
 }
 
@@ -379,8 +335,9 @@ color: #888;
         height: 600px;
     }
     .background-container, .color-background{
-        height: 280px;
+  
         width: auto;  
+        height: auto;  
     }
 
     .item-big{
@@ -391,7 +348,7 @@ color: #888;
         height: 78vh
     }
 
-    /*simulatore - infoi*/
+      /* simulatore - custom */
 
     .item-small-container{
         height: 825px; 
@@ -399,12 +356,7 @@ color: #888;
         background-color: #222;
     
     }
-    
-    .item-container-info{
-        background-image: none!important;
-        background-color: #000!important;
-        min-height: 0!important;
-    }
+ 
     .img-responsive{
         display: unset ;
         width: 150%;
@@ -413,7 +365,7 @@ color: #888;
 
     }
     
-    /* simulatore - custom */
+  
 
     .background-color-viewer{
  
@@ -444,6 +396,18 @@ color: #888;
 
     }
 
+    .row-components-products{
+
+        max-width: 75%;
+        margin-left: 12.5%;
+    }
+    
+    .row-components-products-reverse{
+
+        max-width: 75%;
+        margin-left:12.5%;
+        flex-direction: column-reverse;
+    }
     
 
 
@@ -465,7 +429,10 @@ color: #888;
     }
 
     .text-container-custom {
-        max-width: 80%;
+        max-width: 90%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+   
     }
 
     .text-component{
@@ -474,19 +441,6 @@ color: #888;
         margin-left: 2.5%;
     }
 
-    /*text simulatore info*/
-    .text-container-info{
-        position: relative;
-        top: 0;
-
-        
-    }
-
-    .text-content-info{
-
-        padding: 1.25rem .625rem;
-        
-    }
 
     .text-container-row-components{
 
@@ -520,7 +474,7 @@ color: #888;
 
     .text-center{
         max-width: 80%;
-        margin-left: 10%;
+
     }
 
     
@@ -566,6 +520,11 @@ color: #888;
     #quod-3{
         background-image: url('img/Index/limitedmobile.jpg');
     }
+
+    #product-0{
+        background-image: url('img/test/product1.png');
+    }
+    
 }
 
 
@@ -612,6 +571,10 @@ color: #888;
         background-image: url('img/Index/limitedweb.jpg');
     }
 
+    #product-0{
+        background-image: url('img/test/product1.png');
+    }
+
         
 }
 @media only screen and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 1.5),
@@ -644,6 +607,7 @@ only screen and (min-width: 992px) and (min-resolution: 144dpi) {
         background-image: url('img/Custom/NeonSetupL.png');
         
     }
+    
 
 }
 
