@@ -48,8 +48,8 @@
     var height = (width * 0.68) | 0;
     $('#360frames').spritespin({
       source: SpriteSpin.sourceArray('./img/viewer/{frame}-min.jpg', {frame: [1, 18], digits: 1}),
-      width: 1050,
-      height: 700,
+      width: width,
+      height: height,
       sense: -1,
       animate : false,
       loop: false,
