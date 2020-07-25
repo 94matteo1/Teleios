@@ -183,14 +183,14 @@ body {
 
 .background-color-viewer{
     position: relative;
-    height: 760px;
+    height: 1050px;
     width: 100%;
     background-color: #000000;    
 }
 
 .viewer-container{
 
-    height: 700px;
+    height: 1050px;
     width: 1050px;
     margin-left: auto;
     margin-right: auto;
