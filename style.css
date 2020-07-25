@@ -174,7 +174,7 @@ body {
 }
 
 .background-viewer{
-    margin-top: 5%;
+
     padding-bottom: 10px;
     background-color: #222;
     max-height: 1920px;
@@ -185,7 +185,7 @@ body {
     position: relative;
     height: 1050px;
     width: 100%;
-    background-color: #000000;    
+    background-color: #9797a0!important;  
 }
 
 .viewer-container{
@@ -412,17 +412,17 @@ color: #888;
         margin-left: -50%;
 
     }
-
+    
     /* simulatore - custom */
 
     .background-color-viewer{
-        margin-top: 10%;
+ 
         height: auto!important;
+       
     }
     .viewer-container{
         width: auto; 
         height: auto;
-
     }
 
     .row-components-reverse{
