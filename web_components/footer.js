@@ -5,12 +5,12 @@ const footer = document.createElement('template');
 footer.innerHTML = `
 <style>
     .main-footer{
-        background: #222;
+        background: #091d3e;
         margin: 0;
         border: 0;
         display: block;
         padding: 3.125rem .625rem;
-        background: #222;
+  
         position: relative;
         bottom: 0;
     }

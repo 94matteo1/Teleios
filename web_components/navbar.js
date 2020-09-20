@@ -7,7 +7,7 @@ template.innerHTML = `
         .container-nav{
             text-align: center;
             position: relative;
-            background: #222;
+            background: #091d3e;
             height: 3.125rem;
       
         }
@@ -18,7 +18,7 @@ template.innerHTML = `
             width: 6.25rem;
             height: 1.875rem;
             display: inline-block;
-            background-image: url('img/test/marchio.png');
+            background-image: url('img/test/marchio-white.png');
         }
 
         .nav-menu{
@@ -40,15 +40,16 @@ template.innerHTML = `
         .reflink-nav-item{
             text-decoration: none;
 
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-size: 1.0rem;
             letter-spacing: .0625rem;
             color: whitesmoke;
+            font-weight: bold;
         }
 
         @media (min-width : 0px) and (max-width: 501px){
             .reflink-nav-item{
-                font-size: 0.80rem;
+                font-size: 0.95rem;
             }
         }
 
@@ -66,9 +67,8 @@ template.innerHTML = `
         </div>
             <div class="nav-menu" id="nav-menu-id">
                 <li class="nav-item"><a  href="./index.html" class="reflink-nav-item">Home</a></li>
-                <li class="nav-item"><a  href="./simulatore-info.html" class="reflink-nav-item">Products</a></li>
                 <li class="nav-item"><a  href="./about.html" class="reflink-nav-item">About</a></li>
-                <li class="nav-item"><a  href="./contacts.html" class="reflink-nav-item">Contatti</a></li>
+                <li class="nav-item"><a  href="./contacts.html" class="reflink-nav-item">Contacts</a></li>
                 
         </div>
     </div>

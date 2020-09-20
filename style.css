@@ -15,7 +15,7 @@ body {
 
 .background-container{
     padding-bottom: 10px;
-    background-color: #222;
+    background-color: #091d3e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@ body {
 
 .background-container-products{
     padding-bottom: 10px;
-    background-color: #222;
+    background-color: #091d3e;
 }
 
 .color-background-products{
@@ -48,7 +48,7 @@ body {
 .item-container-main{
 
     padding-bottom: 10px;
-    background-color: #222;
+    background-color: #091d3e;
 }
 
 .reflink{
@@ -69,7 +69,7 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: #222;
+    background-color: #091d3e;
     display: flex;
     flex-flow: row wrap;
     margin: 3.125rem auto 0;
@@ -235,7 +235,7 @@ body {
 .product-button{
     margin-top: 10%;
     width: 120px ;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Square Sans Serif 7";
     font-size: medium;
     height: 50px;
     border-radius: 35px;
@@ -256,7 +256,7 @@ body {
 }
 
 .text-big-main{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Square Sans Serif 7";
     display: block;
     font-size: 2.0rem;
     line-height: 1;
@@ -266,8 +266,9 @@ body {
 }
 
 .text-little-main{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.125rem;
+    font-weight: bold;
     line-height: 1.5;
     display: block;
     letter-spacing: .0625rem;
@@ -298,7 +299,7 @@ body {
 }
 
 .text-big-simulatore{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Square Sans Serif 7";
     display: block;
     font-size: 1.75rem;
     line-height: 1;
@@ -307,7 +308,7 @@ body {
 }
 
 .text-little-simulatore{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Square Sans Serif 7";
     font-size: 1.100rem;
     line-height: 1.5;
     display: block;
@@ -499,7 +500,7 @@ body {
     }
 
     #item-1 {
-        background-image: url('./img/Definitive/Index/index_teleios_main2_mobile.jpg');
+        background-image: linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,0) 45%, rgba(255,255,255,0) 100%),url('./img/Definitive/Index/index_teleios_main2_mobile.jpg');
     }
 
     #item-2 {
@@ -518,19 +519,19 @@ body {
     }
 
     #quod-0{
-        background-image: url('img/Index/SitCloseUpMobile.png');
+        background-image: linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,0) 45%, rgba(255,255,255,0) 100%), url('./img/Definitive/Index/index_seat_mobile.jpg');
     }
     
     #quod-1{
-        background-image: url('img/Index/Steeringwheel_m.png');
+        background-image:  linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,0) 45%, rgba(255,255,255,0) 100%),url('./img/Definitive/Index/index_stearingwheel_mobile.jpg');
     }
 
     #quod-2{
-        background-image: url('img/Index/charlesmobile.jpg');
+        background-image:  linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,0) 45%, rgba(255,255,255,0) 100%),url('img/Index/charlesmobile.jpg');
     }
 
     #quod-3{
-        background-image: url('img/Index/limitedmobile.jpg');
+        background-image:  linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,0) 45%, rgba(255,255,255,0) 100%),url('img/Index/limitedmobile.jpg');
     }
 
     #product-0{
@@ -547,11 +548,11 @@ body {
     }  
 
     #item-0 {
-        background-image: url('./img/Definitive/Index/index_teleios_main.jpg');
+        background-image:  url('./img/Definitive/Index/index_teleios_main.jpg');
     }  
 
     #item-1 {
-        background-image: url('./img/Definitive/Index/index_teleios_main2.jpg');
+        background-image: linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,0) 45%, rgba(255,255,255,0) 100%),url('./img/Definitive/Index/index_teleios_main2.jpg');
     }
 
     #item-2 {
@@ -568,19 +569,19 @@ body {
     }
 
     #quod-0{
-        background-image: url('img/Index/SitCloseUpWeb.png');
+        background-image:  linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,0) 45%, rgba(255,255,255,0) 100%), url('./img/Definitive/Index/index_seat.jpg');
     }
     
     #quod-1{
-        background-image: url('img/Index/Steeringwheel.png');
+        background-image:  linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,0) 45%, rgba(255,255,255,0) 100%),url('./img/Definitive/Index/index_stearingwheel.jpg');
     }
 
     #quod-2{
-        background-image: url('img/Index/charlesweb.jpg');
+        background-image:  linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,0) 45%, rgba(255,255,255,0) 100%),url('img/Index/charlesweb.jpg');
     }
 
     #quod-3{
-        background-image: url('img/Index/limitedweb.jpg');
+        background-image:  linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,0) 45%, rgba(255,255,255,0) 100%),url('img/Index/limitedweb.jpg');
     }
 
     #product-0{
