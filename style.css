@@ -495,11 +495,11 @@ body {
     } 
 
     #item-0 {
-        background-image: url('img/Index/FrontSide_Setup_Mobile.jpg');
+        background-image: url('./img/Definitive/Index/index_teleios_main_mobile.jpg');
     }
 
     #item-1 {
-        background-image: url('img/Index/Black_SideSetup_Mobile.png');
+        background-image: url('./img/Definitive/Index/index_teleios_main2_mobile.jpg');
     }
 
     #item-2 {
@@ -547,11 +547,11 @@ body {
     }  
 
     #item-0 {
-        background-image: url('img/Index/FrontSide_Setup_Web.jpg');
+        background-image: url('./img/Definitive/Index/index_teleios_main.jpg');
     }  
 
     #item-1 {
-        background-image: url('img/Index/Black_SideSetup_Web.png');
+        background-image: url('./img/Definitive/Index/index_teleios_main2.jpg');
     }
 
     #item-2 {
@@ -599,11 +599,11 @@ only screen and (min-width: 992px) and (min-resolution: 144dpi) {
     }  
 
     #item-0 {
-        background-image: url('img/Index/FrontSide_Setup_Web.jpg');
+        background-image: url('./img/Definitive/Index/index_teleios_main.jpg');
     }  
 
     #item-1 {
-        background-image: url('img/Index/Black_SideSetup_Web.png');
+        background-image: url('./img/Definitive/Index/index_teleios_main2.jpg');
     }
 
     #item-2 {
