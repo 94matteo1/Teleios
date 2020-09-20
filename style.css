@@ -492,7 +492,7 @@ body {
 
     
     #item-contacts {
-        background-image: url('img/About/logomobile.jpg');
+        background-image:  url('img/Definitive/About/logo-about-mobile.png'), linear-gradient( 135deg, #091d3e 30%, #ff0000 110%);
     } 
 
     #item-0 {
@@ -544,7 +544,7 @@ body {
 @media (min-width : 768px) {
 
     #item-contacts {
-        background-image: url('img/About/logoweb1.1.jpg');
+        background-image: url('img/Definitive/About/logo-about.png'), linear-gradient( 135deg, #091d3e 30%, #ff0000 110%);
     }  
 
     #item-0 {

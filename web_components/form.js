@@ -154,69 +154,40 @@ input[type=submit]:hover{
 <form class="form" action="email_form.php" method="post" name="form">
     <div class="info-contacts" >
         <h1 class="text-center"">
-            <span class="form-text" style="color: white;">Per qualisasi informazione non esitate a contattarci, un esperto vi risponderà nel più breve tempo possibile</span>
+            <span class="form-text" style="color: white;">Fill the form below for further information, an expert from our team will get back to you as soon as possible</span>
         </h1>
     </div>
     <div class="row" >
         <div class="col-50" style="margin-top: 3.25em">
-            <input type="text" id="fname" name="firstname" placeholder="Nome*">
+            <input type="text" id="fname" name="firstname" placeholder="Name*">
         </div>
     </div>
      <div class="row">
         <div class="col-50">
-            <input type="text" id="lname" name="lastname" placeholder="Cognome*">
+            <input type="text" id="lname" name="lastname" placeholder="Lastname*">
         </div>
     </div>
     <div class="row">
         <div class="col-50">
-            <input type="text" id="lname" name="email" placeholder="email*">
+            <input type="text" id="lname" name="email" placeholder="Email*">
         </div>
     </div>
     <div class="row">
         <div class="col-50">
-            <input type="text" id="lname" name="ragionesociale" placeholder="Ragione Sociale">
+            <input type="text" id="lname" name="ragionesociale" placeholder="Company Name">
         </div>
     </div>
     <div class="row">
         <div class="col-50">
-            <input type="text" id="lname" name="piva" placeholder="P.iva">
+            <input type="text" id="lname" name="piva" placeholder="VAT ID">
         </div>
     </div>
     <div class="row">
         <div class="col-50">
-            <textarea id="subject" name="msg" placeholder="Richiesta" style="height:200px"></textarea>
+            <textarea id="subject" name="msg" placeholder="Your question" style="height:200px"></textarea>
         </div>
     </div>
-    <div class="row">
-        <div class="col-25 ">
-            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        </div>
-        <div class="col-75 ">
-            <label class="form-text" for="vehicle1"> Richiedo di essere contattato per la creazione di un modello personalizzato</label><br>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-25 ">
-            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        </div>
-        <div class="col-75 ">
-             <label class="form-text" for="vehicle1">Richiedo un form per la richiesta di un preventivo per il simulatore con grafiche standard</label><br>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-25 ">
-            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                
-        </div>
-        <div class="col-75 ">
-            <label class="form-text" for="vehicle1">Richiedo di essere contattato come fornitore</label><br>
-        </div>
-    </div>
-     <div class="row">
-        <div class="col-50">           
-            <button type="button" class="btn btn-primary product-button">Submit</button>
-        </div>
-    </div>
+   
 </form>
 
 
