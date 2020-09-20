@@ -27,6 +27,23 @@ footer.innerHTML = `
         font-size:20px;
     }
 
+
+
+    .social{
+        margin: .625rem auto;
+        max-height: 100vh;
+        width: 6.25rem;
+        height: 1.875rem;
+ 
+        background-image: url('img/test/marchio-white.png');
+
+    }
+
+    .container-social{
+        display:flex;
+     
+    }
+
     @media (min-width : 0px) and (max-width: 767px){
 
         .main-footer{
@@ -46,8 +63,10 @@ footer.innerHTML = `
 <div class="main-footer">
     <h1 class="text-footer"">
         <span class="text-little" style="color: white;">info@teleios.tech - via Varesina 3, 22075 Lurate Caccivio (Co), Italy - +39 / 391 76 72 613 </span>
-
+        
     </h1>
+
+    
 </div>
 `;
  
