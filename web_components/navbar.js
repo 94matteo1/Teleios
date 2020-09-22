@@ -18,7 +18,7 @@ template.innerHTML = `
             width: 6.25rem;
             height: 1.875rem;
             display: inline-block;
-            background-image: url('img/test/marchio-white.png');
+            background-image: url('img/Definitive/Navbar/marchio-white.png');
         }
 
         .nav-menu{
