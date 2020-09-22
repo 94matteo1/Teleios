@@ -7,7 +7,7 @@
         $piva=$_POST['piva'];
 		$msg=$_POST['msg'];
 
-		$to='94matteo1@gmail.com'; // Receiver Email ID, Replace with your email ID
+		$to='info@teleios.tech'; // Receiver Email ID, Replace with your email ID
 		$subject='Form Submission';
 		$message="Name :".$firstname."\n"."Lastname :".$lastname."\n"."Ragionesociale :".$ragionesociale."\n"."Piva :".$piva."\n"."Wrote the following :"."\n\n".$msg;
 		$headers="From: ".$email;

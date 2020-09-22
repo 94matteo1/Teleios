@@ -187,6 +187,14 @@ input[type=submit]:hover{
             <textarea id="subject" name="msg" placeholder="Your question" style="height:200px"></textarea>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-50">           
+
+            <button type="submit" name="submit" value="Send" class="btn btn-primary product-button">Submit</button>
+        </div>
+        </div>
+</div>
    
 </form>
 
