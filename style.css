@@ -8,7 +8,7 @@
 
 body {
  
-    background: #000;
+    background: #091d3e;
 }
 
 .canvas{
@@ -343,6 +343,23 @@ body {
     margin-left: 15%;
 }
 
+.contacts-container {
+    padding-top: 1.0rem;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contacts-button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+
 
 
 
@@ -502,7 +519,7 @@ body {
     } 
 
     #item-0 {
-        background-image: url('./img/Definitive/Index/index_teleios_main_mobile.jpg');
+        background-image: linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,0) 45%, rgba(255,255,255,0) 100%), url('./img/Definitive/Index/temp_image_mobile.png');
     }
 
     #item-1 {
@@ -554,7 +571,7 @@ body {
     }  
 
     #item-0 {
-        background-image:  url('./img/Definitive/Index/index_teleios_main.jpg');
+        background-image:  linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,0) 45%, rgba(255,255,255,0) 100%),url('./img/Definitive/Index/temp_image.png');
     }  
 
     #item-1 {
@@ -601,31 +618,7 @@ only screen and (min-width: 992px) and (min-resolution: 1.5dppx),
 only screen and (min-width: 992px) and (min-resolution: 144dpi) {
 
 
-    #item-contacts {
-        background-image: url('img/About/logoweb1.1.jpg');
-    }  
-
-    #item-0 {
-        background-image: url('./img/Definitive/Index/index_teleios_main.jpg');
-    }  
-
-    #item-1 {
-        background-image: url('./img/Definitive/Index/index_teleios_main2.jpg');
-    }
-
-    #item-2 {
-        background-image: url('img/test/MainLargeSimulator.png');
-    }
-
-    #item-3 {
-        background-image: url('img/test/MainLargeSimulator2.png');
-        
-    }
-
-    #item-4 {
-        background-image: url('img/Custom/NeonSetupL.png');
-        
-    }
+    
     
 
 }

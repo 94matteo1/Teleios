@@ -31,7 +31,7 @@ form.innerHTML = `
 }
 
 .form{
-    background-color: #091d3e; 
+    background-color: black; 
     height: 100%;
     min-height: 75vh;
     margin-bottom: 3.125rem;
@@ -170,6 +170,16 @@ input[type=submit]:hover{
     <div class="row">
         <div class="col-50">
             <input type="text" id="lname" name="email" placeholder="Email*">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-50">
+            <input type="text" id="lname" name="ragionesociale" placeholder="Company Name">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-50">
+            <input type="text" id="lname" name="piva" placeholder="VAT ID">
         </div>
     </div>
     <div class="row">
