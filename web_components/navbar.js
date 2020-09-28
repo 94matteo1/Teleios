@@ -7,7 +7,7 @@ template.innerHTML = `
         .container-nav{
             text-align: center;
             position: relative;
-            background: #091d3e;
+            background: #f5f5f5;
             height: 3.125rem;
       
         }
@@ -18,7 +18,7 @@ template.innerHTML = `
             width: 6.25rem;
             height: 1.875rem;
             display: inline-block;
-            background-image: url('img/Definitive/Navbar/marchio-white.png');
+            background-image: url('img/Definitive/Navbar/marchio-red.png');
         }
 
         .nav-menu{
@@ -43,7 +43,7 @@ template.innerHTML = `
             font-family: 'Montserrat', sans-serif;
             font-size: 1.0rem;
             letter-spacing: .0625rem;
-            color: whitesmoke;
+            color: #091d3e;
             font-weight: bold;
         }
 

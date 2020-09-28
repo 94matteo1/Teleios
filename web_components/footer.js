@@ -5,7 +5,7 @@ const footer = document.createElement('template');
 footer.innerHTML = `
 <style>
     .main-footer{
-        background: #091d3e;
+        background: #f5f5f5;
         margin: 0;
         border: 0;
         display: block;
@@ -62,7 +62,7 @@ footer.innerHTML = `
 
 <div class="main-footer">
     <h1 class="text-footer"">
-        <span class="text-little" style="color: white;">info@teleios.tech - via Varesina 3, 22075 Lurate Caccivio (Co), Italy - +39 / 391 76 72 613 </span>
+        <span class="text-little" style="color:  #091d3e;">info@teleios.tech - via Varesina 3, 22075 Lurate Caccivio (Co), Italy - +39 / 391 76 72 613 </span>
         
     </h1>
 
