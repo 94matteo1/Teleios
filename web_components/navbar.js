@@ -6,10 +6,12 @@ template.innerHTML = `
 
         .container-nav{
             text-align: center;
-            position: relative;
-            background: #f5f5f5;
+            position: absolute;
             height: 3.125rem;
-      
+            z-index:2;
+            top: 0; right: 0; bottom: 0; left:0;
+
+
         }
 
         .marchio{
@@ -18,7 +20,7 @@ template.innerHTML = `
             width: 6.25rem;
             height: 1.875rem;
             display: inline-block;
-            background-image: url('img/Definitive/Navbar/marchio-red.png');
+            background-image: url('img/Definitive/Navbar/marchio-white.png');
         }
 
         .nav-menu{
@@ -39,11 +41,10 @@ template.innerHTML = `
   
         .reflink-nav-item{
             text-decoration: none;
-
             font-family: 'Montserrat', sans-serif;
             font-size: 1.0rem;
             letter-spacing: .0625rem;
-            color: #091d3e;
+            color: whitesmoke;
             font-weight: bold;
         }
 
@@ -61,7 +62,8 @@ template.innerHTML = `
   
  
     </style>
- 
+        
+
     <div class="container-nav">
         <div class="marchio">
         </div>

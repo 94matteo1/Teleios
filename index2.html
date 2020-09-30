@@ -20,6 +20,26 @@
         <div class="canvas">
             
             <nav-bar></nav-bar>
+            
+            <div class="video-container">
+                <video autoplay loop muted class="mobile-video">
+                    <source src="./img/Def/Mobile/Index/videomobile.mp4" type="video/mp4">
+                </video>
+                <video autoplay loop muted class="desktop-video">
+                    <source src="./img/Def/Desktop/Index/video.mp4" type="video/mp4">
+                </video>
+                <div class="overlay">
+                    <div class="video-text-container">
+                        <div >
+                            <h1 class="video-text">Hydra-one by Teleios</h1>
+                        </div>
+                        <div >
+                            <Button class="discover-button">discover the simulator</Button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+         
     
             <container-main 
                 background-color="#000"
@@ -29,6 +49,16 @@
             >
                 <span slot="containerMaintextBig" style="color: whitesmoke;">Teleios By You</span>
                 <span slot="containerMaintextSmall" style="color: whitesmoke;">Create and customize your own driving simulator</span>
+            </container-main>
+
+            <container-main 
+                background-color="#fff"
+                background-gradient=""
+                background-desktop=""
+                background-mobile=""
+            >
+                <span slot="containerMaintextBig" style="color: black;">Teleios By You</span>
+                <span slot="containerMaintextSmall" style="color: black;">Create and customize your own driving simulator</span>
             </container-main>
 
             

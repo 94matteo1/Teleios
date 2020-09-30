@@ -84,14 +84,11 @@ containerMainTemplate.innerHTML = `
         <div id="backColor">
             <div class="item" id="back">
                 <div class="itemMobile" id="backMobile">
-                    <video autoplay loop muted playsinline>
-                        <source src="img/giftomp4.webm" type="video/webm">
-                        <source src="./img/Def/Desktop/Index/video.mp4" type="video/mp4">
-                            <h1 class="textContainer">
-                            <slot name="containerMaintextBig" class="txtBig">My default text 3</slot>
-                             <slot name="containerMaintextSmall" class="txtSmall">My default text 3</slot>
-                         </h1>
-                    </video>
+                    <h1 class="textContainer">
+                        <slot name="containerMaintextBig" class="txtBig">My default text 3</slot>
+                        <slot name="containerMaintextSmall" class="txtSmall">My default text 3</slot>
+                    </h1>
+            
                 </div>
             </div>
         </div>  
