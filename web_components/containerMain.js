@@ -130,7 +130,7 @@ containerMain.forEach(function (item) {
         gradientCol = attr[1].value;
 		//Mobile background image
         desktopUrl = attr[2].value;
-        console.log(desktopUrl)
+
         mobileUrl = attr[3].value;
 
 	
