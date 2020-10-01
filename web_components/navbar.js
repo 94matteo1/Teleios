@@ -48,6 +48,13 @@ template.innerHTML = `
             font-weight: bold;
         }
 
+        .teleios{
+            display: block;
+            height: 100%;
+            width: 100%;
+            text-decoration: none;
+        }
+
         @media (min-width : 0px) and (max-width: 501px){
             .reflink-nav-item{
                 font-size: 0.95rem;
@@ -66,13 +73,13 @@ template.innerHTML = `
 
     <div class="container-nav">
         <div class="marchio">
+            <a href="./index.html" class="teleios"></a>
         </div>
-            <div class="nav-menu" id="nav-menu-id">
-                <li class="nav-item"><a  href="./index.html" class="reflink-nav-item">Home</a></li>
-                <li class="nav-item"><a  href="./about.html" class="reflink-nav-item">About</a></li>
-                <li class="nav-item"><a  href="./contacts.html" class="reflink-nav-item">Contacts</a></li>
-                
-        </div>
+        <div class="nav-menu" id="nav-menu-id">
+            <li class="nav-item"><a  href="./index.html" class="reflink-nav-item">Home</a></li>
+            <li class="nav-item"><a  href="./about.html" class="reflink-nav-item">About</a></li>
+            <li class="nav-item"><a  href="./contacts.html" class="reflink-nav-item">Contacts</a></li>
+        </div>    
     </div>
         
 `;

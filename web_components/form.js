@@ -7,7 +7,7 @@ form.innerHTML = `
 
 .info-contacts{
     height: 6.250rem;
-    margin-top: 3.125rem;
+    padding-top: 3.125rem;
 }
 
 
@@ -27,15 +27,13 @@ form.innerHTML = `
     line-height: 1.5;
     display: block;
     letter-spacing: .0625rem;
-
 }
 
 .form{
     background-color: #091d3e; 
     height: 100%;
     min-height: 75vh;
-    margin-bottom: 3.125rem;
-    
+    padding-bottom: 3.125rem;
 }
   
 .col-50 {
@@ -126,6 +124,7 @@ input[type=submit]:hover{
     .info-contacts{
         width: 75%;
         margin-left: 12.5%;
+        padding-top: 5.125rem;
     }
 
     .col-50{

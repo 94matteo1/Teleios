@@ -83,7 +83,19 @@ dualContainerTemplate.innerHTML = `
     
 
     @media (min-width : 0px) and (max-width: 767px){
-	
+        .left{
+            padding: 0 0 10px 0;
+        }
+
+        .right{
+            padding: 0 0 10px 0;
+        }
+
+        .single-quod{
+            min-width:100%!important;
+        }
+
+ 
         .item{
             background-size: 0 0;
         }
@@ -109,6 +121,8 @@ dualContainerTemplate.innerHTML = `
             font-size: 18px;
 
         }
+
+        
 	}
 	</style>
 

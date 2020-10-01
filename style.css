@@ -68,8 +68,46 @@ video{
 
 .discover-button:hover
 {
-
     border: 2px solid #f5f5f5;
+}
+
+/* about*/
+
+.background-container{
+    padding-bottom: 10px;
+    background-color: #091d3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-background{
+    background-color: #091d3e;    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:200px ;
+}
+
+.text-center{
+    letter-spacing: .0625rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    display: flex;
+    max-width: 60%;
+}
+
+.text-little-main{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.5;
+    display: block;
+    letter-spacing: .0625rem;
+    margin-top: .625rem;
 }
 
 @media (min-width : 0px) and (max-width: 767px){
@@ -92,7 +130,22 @@ video{
     .discover-button{
         font-size: 18px;
         margin-left: 20%;
+    }  
+
+    /*about*/
+    .background-container, .color-background{
+  
+        width: auto;  
+        height: auto;  
     }
 
-  
+    .text-center{
+        max-width: 80%;
+
+    }
+
+    .text-little-main{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
 }

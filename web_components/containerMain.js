@@ -129,9 +129,9 @@ containerMain.forEach(function (item) {
         backgroundCol = attr[0].value;
         gradientCol = attr[1].value;
 		//Mobile background image
-        desktopUrl = "url("+attr[2].value+")";
+        desktopUrl = attr[2].value;
         console.log(desktopUrl)
-        mobileUrl = "url("+attr[3].value+")";
+        mobileUrl = attr[3].value;
 
 	
     });

@@ -4,21 +4,26 @@
         <meta charset="utf-8">
         <title>TELEIOS - luxury driving simulators</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  
-        <meta name="author" content="Six Revisions">
-        <meta name="description" content="How to use the CSS background-size property to make an image fully span the entire viewport.">
+        <meta name="author" content="Teleios SRL">
+        <meta name="description" content="luxury driving simulators">
         <link href="style.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
     </head>
     <body >      
         <script src="web_components/navbar.js"></script>
         <div class="canvas">
             <nav-bar></nav-bar>
-             <div class = "item-container-main"> 
-                <div class="item" id="item-contacts" data-ind="0">
-    
-                </div> 
-            </div>
+
+            <container-main 
+                background-color=""
+                background-gradient=""
+                background-desktop="url('img/Definitive/About/logo-about.png'), linear-gradient( 135deg, #091d3e 30%, #ff0000 110%)"
+                background-mobile="url('img/Definitive/About/logo-about-mobile.png'), linear-gradient( 135deg, #091d3e 30%, #ff0000 110%)"
+            >
+                <span slot="containerMaintextBig" style="color: whitesmoke;"></span>
+                <span slot="containerMaintextSmall" style="color: whitesmoke;"></span>
+            </container-main>
+
             <div class="background-container">
                 <div class="color-background">
                     <h1 class="text-center"">
@@ -26,11 +31,15 @@
                     </h1>
                 </div> 
             </div>  
+             
 
-              <script src="web_components/footer.js"></script>
+            <script src="web_components/footer.js"></script>
             <foo-ter></foo-ter>
+
                       
         </div>
+
+        <script src="web_components/containerMain.js"></script>
     </body>
 
 </html>
