@@ -77,7 +77,7 @@ template.innerHTML = `
         </div>
         <div class="nav-menu" id="nav-menu-id">
             <li class="nav-item"><a  href="./index.html" class="reflink-nav-item">Home</a></li>
-            <li class="nav-item"><a  href="./about.html" class="reflink-nav-item">About</a></li>
+            <li class="nav-item"><a  href="./info.html" class="reflink-nav-item">Info</a></li>
             <li class="nav-item"><a  href="./contacts.html" class="reflink-nav-item">Contacts</a></li>
         </div>    
     </div>

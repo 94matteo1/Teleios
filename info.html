@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>TELEIOS - luxury driving simulators</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  
+        <meta name="author" content="Teleios SRL">
+        <meta name="description" content="luxury driving simulators">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+
+    
+    </head>
+<body>
+    <div class="canvas">
+        <nav-bar></nav-bar>
+        <div>
+            <container-main 
+                background-color="black"
+                background-desktop="'img/Definitive/Desktop/Info/laterale 1920.png'"
+                background-mobile="'img/Definitive/Mobile/About/logo-about-mobile.png'"
+
+                background-desktop-2="'img/Definitive/Desktop/Info/carena lato sx.png'"
+                background-desktop-3="'img/Definitive/Desktop/Info/seat.3.png'"
+                background-desktop-4="'img/Definitive/Desktop/Info/carena lato sx.png'"
+                id="slider-0"
+            >
+                <span slot="containerMaintextBig" style="color: whitesmoke;">ccccccccc</span>
+
+            </container-main>
+
+        </div>
+        <div style="position: relative; margin-top: -50px; width:100%; display: flex; align-items: center; justify-content:center;">
+            <button-imgs
+                functionToCall="changeImage"
+                idProp="'slider-0'"
+                num="1"
+            >
+            </button-imgs>
+            
+            <button-imgs
+                functionToCall="changeImage"
+                idProp="'slider-0'"
+                num="2"
+            >
+            </button-imgs>
+
+            <button-imgs
+                functionToCall="changeImage"
+                idProp="'slider-0'"
+                num="3"
+            >
+            </button-imgs>
+
+            <button-imgs
+                functionToCall="changeImage"
+                idProp="'slider-0'"
+                num="4"
+            >
+            </button-imgs>
+       
+        </div>
+
+    </div>
+    <script src="web_components/navbar.js"></script>
+    <script src="web_components/buttonImgs.js"></script>
+    <script src="web_components/containerMain.js"></script>
+</body>
+</html>
