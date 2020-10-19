@@ -1,6 +1,6 @@
-const containerMainTemplate = document.createElement('template');
+const slideImagesTemplate = document.createElement('template');
  
-containerMainTemplate.innerHTML = `
+slideImagesTemplate.innerHTML = `
 
  
 
@@ -100,30 +100,29 @@ containerMainTemplate.innerHTML = `
     
     <div id="customProps">
 	    <div class="background">
-            <div class="item" id="container-main-img">
+            <div class="item" id="slide-images-img">
                 <div class="itemMobile">
                     <h1 class="textContainer">
-                        <slot name="containerMaintextBig" class="txtBig">My default text 3</slot>
-
+                        <slot name="slideImagestextBig" class="txtBig">My default text 3</slot>
                     </h1>
                 </div>
             </div>
           
         </div>     
     </div>
-    </div>
+
     
     
 	
         
 `;
 
-customElements.define('container-main',
+customElements.define('slide-images',
   class extends HTMLElement {
     constructor() {
       super();
 
-	  const templateContent = containerMainTemplate.content;
+	  const templateContent = slideImagesTemplate.content;
 
       this.attachShadow({mode: 'open'}).appendChild(
         templateContent.cloneNode(true)
@@ -133,7 +132,7 @@ customElements.define('container-main',
 );
 
 
-containerMain = document.querySelectorAll('container-main');
+slideImages = document.querySelectorAll('slide-images');
 
 var backgroundCol;
 var desktopImg;
@@ -144,7 +143,7 @@ var desktopImg3;
 var desktopImg4;
 
 var animPlay = false;;
-containerMain.forEach(function (item) {
+slideImages.forEach(function (item) {
     
 
 	[item.attributes].forEach(attr => {
@@ -175,7 +174,7 @@ containerMain.forEach(function (item) {
 function changeImage(checkId, num){
 
 
-    containerMain.forEach(function (item) {
+    slideImages.forEach(function (item) {
         
         if( item.id === checkId && animPlay === false){
    

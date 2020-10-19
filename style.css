@@ -80,7 +80,8 @@ video{
         
     }
     50% {
-        opacity:0.5;
+        opacity:0.0;
+     
     }
     100% {
         opacity:1;
